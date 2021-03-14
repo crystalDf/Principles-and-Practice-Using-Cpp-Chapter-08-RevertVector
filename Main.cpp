@@ -11,7 +11,6 @@ void print_vector(const std::string& prompt, const std::vector<T>& vt);
 
 int main()
 {
-
     std::vector<int> vi = { 1, 3, 5, 7, 9 };
     print_vector("original vi: ", vi);
     print_vector("revert with new vector: ", revert_with_new_vector(vi));
