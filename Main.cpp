@@ -29,7 +29,7 @@ int main()
 template<typename T>
 std::vector<T> revert_with_new_vector(const std::vector<T>& vt)
 {
-    std::vector<T> result { };
+    std::vector<T> result;
 
     for (int i = vt.size() - 1; i >= 0; --i)
     {
